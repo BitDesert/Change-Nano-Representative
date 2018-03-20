@@ -20,7 +20,12 @@ A good representative should have:
 - Below 1 % of total voting weight
 - Bonus points if you know the maintainer
 
-Lists with some good community representatives:
+Curated representatives:
+{% for rep in site.reps %}
+- [rep.title]({{ rep.url }})
+{% endfor %}
+
+External lists with some good community representatives:
 
 - [NanoIsFast.com](https://nanoisfast.com/decentralized-nano-representatives/)
 - [Nanode21.cloud](https://nanode21.cloud/representatives.php)
